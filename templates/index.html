@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Genre Prediction</title>
+</head>
+
+<body>
+
+    <div class="container my-4">
+
+        <!-- Form -->
+
+        <div></div>
+
+        <h2 class="my-4 text-center">Book Genre Prediction</h2>
+
+        <form class="my-4" action="/predict" method="POST">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Enter the Summary of the Book</label>
+                <textarea class="form-control" id="summary" name="summary" rows="5"></textarea>
+            </div>
+
+            <!-- button -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Predict</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
